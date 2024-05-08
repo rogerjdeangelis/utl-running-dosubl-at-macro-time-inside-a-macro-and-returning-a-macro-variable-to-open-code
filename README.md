@@ -125,8 +125,6 @@
 
     %macro dynLvl(dsn,var);
 
-     %global _sessref_;
-
      %dosubl('
       proc sql noprint;
         select
